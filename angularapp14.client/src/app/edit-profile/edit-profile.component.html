@@ -1,0 +1,18 @@
+<!--<div class="popup">
+  <input type="email" [(ngModel)]="user.Email" />
+  <input type="text" [(ngModel)]="user.password" />
+
+  <button (click)="savaChanges()">Save</button>
+</div>-->
+
+<div class="popup">
+  <form class="edit-form">
+    <label for="email">Email:</label>
+    <input id="email" type="email" [(ngModel)]="user.Email" class="input-field" name="email" />
+
+    <label for="password">Password:</label>
+    <input id="password" type="text" [(ngModel)]="user.password" class="input-field" name="password" />
+
+    <button class="save-btn" (click)="savaChanges()">Save</button>
+  </form>
+</div>

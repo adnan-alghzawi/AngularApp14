@@ -1,0 +1,46 @@
+.user-details {
+  background-color: #f4f4f9;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.user-email, .user-password {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+span {
+  font-weight: bold;
+}
+
+.edit-profile-btn {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+  .edit-profile-btn:hover {
+    background-color: #45a049;
+  }
+
+.edit-profile-popup {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  z-index: 1000;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
