@@ -15,7 +15,7 @@ export class EditProfileComponent {
   constructor(private _ser: AdnanService) { }
 
   userId: any;
-  savaChanges() {
+  saveChanges() {
 
     this.userUpdated.emit(this.user);
 
